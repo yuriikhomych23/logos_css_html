@@ -1,39 +1,14 @@
-    * {
-        margin: 0;
-    }
-    /* h1 {
-        color: purple;
-    }
+*{
+    background: #2F2C2C;
+}
 
-    .classname h1 {
-        color: green;
-    }
 
-    div h1 {
-        color: black;
-    } */
-    
+header nav .menu {
 
-    /* b + i {
-        color: green;
-    } */
+}
 
-        b ~ i {
-        color: green;
-        font-family: sans-serif;
-    }
-
-    .square {
-        width: 100%;
-        max-width: 300px;
-        min-width: 100px;
-        height: 100px;
-        background: black;
-        margin: 10px 10px auto;
-        /* margin-top: 10px;
-        margin-right: auto;
-        margin-bottom: 10px;
-        margin-left: 10px; */
-        padding: 25px 100%;
-        border: 2px solid red;
-    }
+h1 {
+    padding: center;
+    font-size: 660%;
+    color: green;
+}
