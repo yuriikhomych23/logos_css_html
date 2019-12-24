@@ -48,31 +48,36 @@ header nav .navigation a {
 }
 
 h6 {
-    margin-left: 300px;
+    padding: 10px;
+    margin-left: 290px;
     font-size: 1rem;
 }
 
 .button-google{
     display:inline-block;
+    margin: 27px;
     margin-left:10px;
     margin-right:10px;
     color: var(--main-color);
     width: 200px;
-    height: 25px;
+    height: 40px;
     border: 1px solid white;
     border-radius: 8px;
     margin-left: 280px;
+    outline: none;
+    
 }
 .button-lucky {
     display:inline-block;
+    margin: 27px;
     margin-left:10px;
     margin-right:10px;
     color: var(--main-color);
     width: 200px;
-    height: 25px;
+    height: 40px;
     border: 1px solid white;
     border-radius: 8px;
-    /* margin-right: 226px;    */
+    outline: none;
 }
 .form {
     width: 450px;
@@ -80,24 +85,27 @@ h6 {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border: 1px solid white;
+    outline: none;
 }
 
 footer {
-    background-color: #EAE7E7;
-    padding: 1%;
+    background-color: #CDC5C5;
+    padding: 20px;
+    font-size: 15px;
+
+}
+
+footer nav a{
+     text-decoration:none;
+     list-style-type: none;
 }
 .left {
     display: inline-block;
     justify-content: flex-start;
     margin: 1%;
-    list-style-type: none;
-    text-decoration: none;
-    color: green;
-
 }
 .right {
     display: flex;
     justify-content: flex-end;
-    list-style-type: none;
-    text-decoration: none;
+    margin: 1%;
 }
